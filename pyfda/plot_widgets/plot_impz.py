@@ -105,6 +105,7 @@ class Plot_Impz(QWidget):
         self.tabWidget = QTabWidget(self)
         self.tabWidget.addTab(self.mplwidget_t, "Time")
         self.tabWidget.addTab(self.mplwidget_f, "Frequency")
+        # self.tabWidget.addTab(self.mplwidget_s, "Spectrogram")
         # list with tabWidgets
         self.tab_mplwidgets = ["mplwidget_t", "mplwidget_f"]
         self.tabWidget.setTabPosition(QTabWidget.West)
